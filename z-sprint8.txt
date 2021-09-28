@@ -1,0 +1,39 @@
+Sprint 8 - Requerimnientos:
+
+A- Crear una API que cuente con los siguientes servicios:
+
+1. Un servicio que retorne todos los usuarios, en forma de objeto, con la siguiente estructura:
+
+  . count -> Cantidad de usuarios
+  . users -> Arreglo con datos de cada usuario
+
+2. Un servicio que retorne un usuario particular por id (no retornar password o datos sensibles)
+
+
+3. Un servicio que retorne todos los productos, en forma de objeto, con la siguiente estructura:
+
+  . count -> Cantidad de productos
+  . countByCategory -> Cantidad de productos por categoría
+  . products -> Arreglo con datos de cada producto
+
+4.  Un servicio que retorne total de categorías
+
+5. Un servicio que retorne un producto particular por id. 
+   Tener en cuenta también los datos de tablas relacionadas y la ruta o url de la imagen del producto.
+
+---------------------------------------------------------------------------------------------------------------
+
+B- Realizar un dashboard en React que muestre:
+
+Paneles Simples:
+
+* Total de usuarios
+* Total de productos
+* Total de categorías
+
+Paneles con datos:
+
+* Ultimo usuario creado  (Con sus datos más relevantes)
+* Ultimo producto creado (Con sus datos más relevantes)
+* Categorías (con su nombre y con la cantidad de productos relacionados a la misma)
+* Listado de productos (con sus datos mas relevantes)

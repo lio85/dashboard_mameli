@@ -1,4 +1,36 @@
-import logo from './logo.svg';
+import Div_wrapper from './components/Div_wrapper';
+
+function App() {
+  return (
+    <Div_wrapper />
+  );
+}
+
+export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -22,4 +54,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;  */}
